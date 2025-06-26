@@ -13,16 +13,17 @@ body, h1, ul {
   .navbar {
     background-color: #4CAF50;
     color: #fff !important;
-    padding: 10 /* ↓ Reduced padding */
+    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 12px;    /* ↓ Slightly smaller font */
-    position: fixed;
+    font-size: 20px;
+    position: fixed;         /* Stick to top */
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 1000;           /* Stay above all content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Optional visual cue */
   }
   
   /* Correct UL class (was .navbar .ul - wrong selector) */
